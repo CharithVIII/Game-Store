@@ -1,0 +1,296 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.navbar {
+  background-color: rgb(23, 19, 19);
+
+}
+
+body {
+  background-color: black;
+}
+
+.background {
+  background-image: url("https://images.hdqwalls.com/download/nfs-underground-x-cyberpunk-4k-jc-1336x768.jpg");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.digit {
+  font-size: 5vh;
+  width: 50px;
+  height: 50px;
+  transform: rotate(-90deg);
+  margin: 3vh auto;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+}
+
+.emoji {
+  font-size: 2.5vh;
+  width: 50px;
+  height: 50px;
+  margin: 1vh auto;
+}
+
+.sign-1 {
+  font-size: 5vw;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+}
+
+.sign-2 {
+  font-size: 7vw;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+}
+
+.home-text{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.card {
+  width: 18rem; 
+}
+
+.card-title {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+#homeContent {
+ /* position: absolute; */
+  /* top:30%; */
+  /* left: 5%; */
+  margin: 25vh auto;
+}
+
+@media (max-width: 618px) { 
+  #homeContent {
+    position: absolute;
+     top:0%;
+     /* left: 5%; */
+     margin: 0 auto;
+   }
+   .small-screen-digit{
+    transform: rotate(90deg);
+    margin: 30px auto;
+    
+   }
+   .time-box{
+    display: flex;
+   }
+   .emoji-box{
+    display: flex;
+   }
+   .small-screen-emoji{
+    margin: 20px auto;
+   }
+   .sign-1{
+    font-size: 6vh;
+   }
+   .sign-2{
+    font-size: 8vh;
+   }
+   .button-home{
+    background-color: #34A7F7;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 2.59vh;
+   }
+   .home-text{
+    font-size: 2.2vh;
+   }
+ }
+
+nav {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.nav-item{
+  margin: 10px 15px;
+  max-width:200px;
+  background-color:black;
+  border-radius: 20px
+}
+
+.nav-item:hover{
+  background-color:#B83442;
+  border-radius: 30px;
+   transition: background-color .7s ease; 
+}
+.nav-link{
+  color:red;
+  transition:  color .6s ease; 
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.nav-link:hover{
+  color:white;
+}
+
+
+header{
+  text-align:center;
+}
+
+.carousel-item img {
+  max-height:100vh;
+  object-fit: cover; 
+}
+
+/* .classicGames {
+  /* flex: grow(1,0) shrink(1,0) fixed width*/
+  /* margin: 30px; */ 
+
+.product {
+  background-color: black;
+  color: white;
+}
+
+/* .acheivements1 {
+  width: 20vw;
+}
+
+.acheivements2 {
+  width: 20vw;
+}
+
+.acheivements3 {
+  width: 20vw;
+}
+
+.acheivements4 {
+  width: 20vw;
+} */
+
+.button-buy-blue {
+  background-color: #34A7F7;
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  padding: 25px;
+  vertical-align: middle;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 2.5vh;
+}
+
+.button-buy {
+  background-color: #515254;
+  color: white;
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  padding: 25px;
+  vertical-align: middle;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 2vh;
+}
+
+.button-home {
+  background-color: #34A7F7;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+}
+
+.buy-popular {
+  position: absolute;
+  background-color: #34A7F7;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding: 1vw;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 15vw;
+  font-size: 2vw;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.button-new{
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  padding: 6px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.button-classics{
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  padding: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+  font-weight: 600;
+  font-size: 2vh;
+}
+
+.head-text{
+  font-family: "Audiowide", sans-serif;
+  font-weight: 500;
+  font-size: 5vh;
+}
+
+.product-name{
+  font-family: "Audiowide", sans-serif;
+  font-weight: 500;
+  font-size: 6vh;
+}
+
+.product-description{
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.product-price{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.acheivement-title{  
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-size: 2.5vh;
+}
+
+.acheivement-description{
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;;
+}
